@@ -46,16 +46,16 @@ def keep_alive():
 
 # --- Configuration FROM .env FILE ---
 # Fix 1: Token ko sahi format mein dala hai
-TOKEN = os.getenv('BOT_TOKEN', '8646769194:AAEmb3bGFuVCbIrTai6dFty21-VwVPO3UdI')
+TOKEN = os.getenv('BOT_TOKEN', '8691334759:AAGYvZ12yZgMV7n1jTFGW9DGfohXFKGAFsk')
 
 # Fix 2: Owner ID ko string mein rakh kar int mein convert kiya (Safe method)
-OWNER_ID = int(os.getenv('OWNER_ID', '7678896887'))
+OWNER_ID = int(os.getenv('OWNER_ID', '8346777366'))
 
 # Fix 3: Sirf ek Main Admin ID rakhi hai (Dusri ID aap bot start hone ke baad /addadmin se add karein)
-ADMIN_ID = int(os.getenv('ADMIN_ID', '7678896887'))
+ADMIN_ID = int(os.getenv('ADMIN_ID', '8346777366'))
 
-YOUR_USERNAME = os.getenv('OWNER_USERNAME', '@Baba_tiIlu')
-UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', '@iam_arru')
+YOUR_USERNAME = os.getenv('OWNER_USERNAME', '@Minuvps55_bot')
+UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', '@Minuvps55_bot')
 
 # Limits from .env or defaults
 FREE_USER_LIMIT = int(os.getenv('FREE_USER_LIMIT', 1))
